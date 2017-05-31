@@ -11,3 +11,12 @@ In order to build locally::
 To test locally::
 
 	make test
+
+Tags
+----
+
+* latest
+
+* 0.9.6
+
+* 0.9.5
