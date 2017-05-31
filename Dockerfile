@@ -2,7 +2,7 @@ FROM alpine:latest
 MAINTAINER Greg Trahair <greg@monkeyswithbuttons.com>
 
 # Set the version you want
-ENV TERRAFORM_VERSION=0.9.5
+ENV TERRAFORM_VERSION=0.9.6
 
 # Install packages we need
 RUN apk add --no-cache --update git wget make openssh-client
