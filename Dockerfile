@@ -5,7 +5,7 @@ MAINTAINER Greg Trahair <greg@monkeyswithbuttons.com>
 ENV TERRAFORM_VERSION=0.9.8
 
 # Install packages we need
-RUN apk add --no-cache --update git wget make
+RUN apk add --no-cache --update git wget make ssh
 
 # Get the terraform package and checksum file
 ADD https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip ./
