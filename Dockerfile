@@ -2,7 +2,7 @@ FROM alpine:latest
 MAINTAINER Greg Trahair <greg@monkeyswithbuttons.com>
 
 # Set the version you want
-ENV TERRAFORM_VERSION=0.9.10
+ENV TERRAFORM_VERSION=0.9.11
 
 # Disable Checkpoint
 ENV CHECKPOINT_DISABLE=1
